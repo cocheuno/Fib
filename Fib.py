@@ -12,7 +12,7 @@ def fibonacci(n):
     return fib
 
 # Call the fibonacci function with argument 5 to get the first 5 Fibonacci numbers
-fibonacci_numbers = fibonacci(5)
+fibonacci_numbers = fibonacci(6)
 
 # Print the first 5 Fibonacci numbers
 print("Thee first 5 Fibonacci numbers are:", fibonacci_numbers)
