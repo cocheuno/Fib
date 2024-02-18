@@ -43,7 +43,7 @@ regression_line = slope * budget + intercept
 # Plot the scatter plot and regression line using matplotlib.
 plt.figure(figsize=(10, 6))  # Set the figure size.
 plt.scatter(budget, lifetime_gross, color='blue', label='Data Points')  # Plot the data points in blue.
-plt.plot(budget, regression_line, color='red', label='Regression Line')  # Plot the regression line in red.
+plt.plot(budget, regression_line, color='green', label='Regression Line')  # Plot the regression line in red.
 plt.title('Linear Regression of Lifetime Gross on Budget')  # Add a title.
 plt.xlabel('Budget ($)')  # Label the x-axis.
 plt.ylabel('Lifetime Gross ($)')  # Label the y-axis.
